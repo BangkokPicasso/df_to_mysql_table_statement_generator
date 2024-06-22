@@ -1,6 +1,15 @@
 import pandas as pd
 
-df = pd.DataFrame(array2)
+# Example DataFrame
+data = {
+    'id': [1, 2, 3],
+    'name': ['Alice', 'Bob', 'Charlie'],
+    'age': [25, 30, 35],
+    'height': [5.5, 6.0, 5.8],
+    'is_member': [True, False, True]
+}
+# SQL statement to create MySQL table
+df = pd.DataFrame(data)
 
 def main():
     # SQL statement to create MySQL table
